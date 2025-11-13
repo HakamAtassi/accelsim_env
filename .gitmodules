@@ -1,0 +1,3 @@
+[submodule "shared/accel-sim-framework"]
+	path = shared/accel-sim-framework
+	url = https://github.com/accel-sim/accel-sim-framework
