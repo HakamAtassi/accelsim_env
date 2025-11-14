@@ -33,7 +33,6 @@ make -C ./gpu-app-collection/src data
 
 
 
-
 ## YOU ARE NOW SET UP #
 ## CLOSE AND RESTART CONTAINER TO PROCEED!! ##
 
@@ -57,9 +56,12 @@ cd $ACCELSIM_FRAMEWORK
 # monitor jobs
 ./util/job_launching/monitor_func_test.py -v -N myTest
 
-
 # run as PTX (trace based)
 ./util/job_launching/run_simulations.py -B rodinia_2.0-ft -C RTX3070-PTX -N myTest-PTX
 
 # Monitor again
 ./util/job_launching/monitor_func_test.py -v -N myTest-PTX
+
+
+# Run a directed test 
+./gpu-simulator/bin/release/accel-sim.out -trace ./hw_run/traces/device-0/12.8/backprop-rodinia-2.0-ft/4096___data_result_4096_txt/traces/kernelslist.g -config ./gpu-simulator/gpgpu-sim/configs/tested-cfgs/SM86_RTX3070/gpgpusim.config -config ./gpu-simulator/configs/tested-cfgs/SM86_RTX3070/trace.config 
