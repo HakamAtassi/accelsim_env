@@ -22,7 +22,7 @@ make -C ./util/tracer_nvbit/
 # run example trace
 cd $ACCELSIM_FRAMEWORK/util/tracer_nvbit
 make -C nvbit_release/test-apps
-LD_PRELOAD=./tracer_tool/tracer_tool.so ./nvbit_release/test-apps/vectoradd/vectoradd
+LD_PRELOAD=$ACCELSIM_FRAMEWORK/util/tracer_nvbit/tracer_tool/tracer_tool.so ./nvbit_release/test-apps/vectoradd/vectoradd
 
 
 # make gpgpu workloads (rodinia)
@@ -43,10 +43,11 @@ export CUDA_INSTALL_PATH=/usr/local/cuda
 export PATH=$CUDA_INSTALL_PATH/bin:$PATH
 export CUDA_VISIBLE_DEVICES=0
 
+
+cd $ACCELSIM_FRAMEWORK
 source ./gpu-simulator/setup_environment.sh # source (again)
 
 # Run accelsim
-cd $ACCELSIM_FRAMEWORK
 ./util/tracer_nvbit/run_hw_trace.py -B rodinia_2.0-ft -D 0 # IDFK what this does
 
 

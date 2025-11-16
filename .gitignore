@@ -1,1 +1,2 @@
-shared/
+shared/accel-sim-framework
+*.trace*

@@ -1,0 +1,2 @@
+kernel id, kernel mangled name, grid_dimX, grid_dimY, grid_dimZ, #blocks, block_dimX, block_dimY, block_dimZ, #threads, total_insts, total_reported_insts
+kernel-1-ctx_0x56215337c970.trace.xz, _Z12helloFromGPUv, 1, 1, 1, 1, 5, 1, 1, 5, 19,19
