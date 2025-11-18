@@ -1,4 +1,4 @@
-CONTAINER_NAME=accelsim_env
+CONTAINER_NAME := $(notdir $(CURDIR))
 
 dir = $(shell pwd)
 
