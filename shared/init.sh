@@ -45,11 +45,12 @@ export CUDA_VISIBLE_DEVICES=0
 
 
 cd $ACCELSIM_FRAMEWORK
-source ./gpu-simulator/setup_environment.sh # source (again)
 
 # Run accelsim
 ./util/tracer_nvbit/run_hw_trace.py -B rodinia_2.0-ft -D 0 # IDFK what this does
 
+
+source ./gpu-simulator/setup_environment.sh # source (again)
 
 # run as SASS (GPGPU)
 ./util/job_launching/run_simulations.py -B rodinia_2.0-ft -C RTX3070-SASS -T ./hw_run/traces/device-0/12.8/ -N myTest

@@ -1,4 +1,4 @@
-Accel-Sim [build accelsim-commit-_modified_0.0_25-11-18-17-26-56]
+Accel-Sim [build accelsim-commit-_modified_0.0_25-11-18-17-25-02]
 
         *** GPGPU-Sim Simulator Version 4.2.0  [build gpgpu-sim_git-commit-_modified_0.0] ***
 
@@ -8650,7 +8650,7 @@ partiton_level_parallism_util =       3.9742
 partiton_level_parallism_util_total  =       1.9208
 L2_BW  =       3.9168 GB/Sec
 L2_BW_total  =       1.9189 GB/Sec
-gpu_total_sim_rate=62376
+gpu_total_sim_rate=77970
 
 ========= Core cache stats =========
 L1I_cache:
@@ -10254,10 +10254,10 @@ Reply_Network_out_buffer_avg_util =       0.0012
 ----------------------------END-of-Interconnect-DETAILS-------------------------
 
 
-gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 5 sec (5 sec)
-gpgpu_simulation_rate = 62376 (inst/sec)
-gpgpu_simulation_rate = 11632 (cycle/sec)
-gpgpu_silicon_slowdown = 97317x
+gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 4 sec (4 sec)
+gpgpu_simulation_rate = 77970 (inst/sec)
+gpgpu_simulation_rate = 14540 (cycle/sec)
+gpgpu_silicon_slowdown = 77854x
 launching memcpy command : MemcpyHtoD,0x00007f5dcae27000,1
 Processing kernel /root/Repos/shared/accel-sim-framework/hw_run/traces/device-0/12.8/bfs-rodinia-2.0-ft/__data_graph4096_txt___data_graph4096_result_txt/traces/kernel-7-ctx_0x558bce18b4d0.traceg.xz
 -kernel name = _Z6KernelP4NodePiPbS2_S2_S1_i
@@ -23636,7 +23636,7 @@ partiton_level_parallism_util =       4.7241
 partiton_level_parallism_util_total  =       2.4051
 L2_BW  =       0.7645 GB/Sec
 L2_BW_total  =       8.8327 GB/Sec
-gpu_total_sim_rate=105012
+gpu_total_sim_rate=114559
 
 ========= Core cache stats =========
 L1I_cache:
@@ -25242,10 +25242,10 @@ Reply_Network_out_buffer_avg_util =       0.0053
 ----------------------------END-of-Interconnect-DETAILS-------------------------
 
 
-gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 12 sec (12 sec)
-gpgpu_simulation_rate = 105012 (inst/sec)
-gpgpu_simulation_rate = 11156 (cycle/sec)
-gpgpu_silicon_slowdown = 101470x
+gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 11 sec (11 sec)
+gpgpu_simulation_rate = 114559 (inst/sec)
+gpgpu_simulation_rate = 12171 (cycle/sec)
+gpgpu_silicon_slowdown = 93007x
 Processing kernel /root/Repos/shared/accel-sim-framework/hw_run/traces/device-0/12.8/bfs-rodinia-2.0-ft/__data_graph4096_txt___data_graph4096_result_txt/traces/kernel-16-ctx_0x558bce18b4d0.traceg.xz
 -kernel name = _Z7Kernel2PbS_S_S_i
 -kernel id = 16
