@@ -28,3 +28,7 @@ done
 
 
 # $ACCELSIM_OUT -trace ../llms/QWEN0.6B/traces/kernelslist.g -config $GPGPU_CFG -config $TRACE_CFG > ../llms/QWEN0.6B/QWEN0.6B.out
+
+# file /root/Repos/shared/accel-sim-framework/gpu-simulator/bin/release/accel-sim.out 
+
+gdb --args /root/Repos/shared/accel-sim-framework/gpu-simulator/bin/release/accel-sim.out  -trace /root/Repos/shared/accel-sim-framework/hw_run/traces/device-0/12.8/backprop-rodinia-2.0-ft/4096___data_result_4096_txt/traces/kernelslist.g -config /root/Repos/shared/accel-sim-framework/gpu-simulator/gpgpu-sim/configs/tested-cfgs/SM86_RTX3070/gpgpusim.config -config /root/Repos/shared/accel-sim-framework/gpu-simulator/configs/tested-cfgs/SM86_RTX3070/trace.config 
