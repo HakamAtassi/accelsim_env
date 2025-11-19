@@ -1,4 +1,4 @@
-Accel-Sim [build accelsim-commit-_modified_0.0_25-11-18-21-06-16]
+Accel-Sim [build accelsim-commit-_modified_0.0_25-11-18-21-14-23]
 
         *** GPGPU-Sim Simulator Version 4.2.0  [build gpgpu-sim_git-commit-_modified_0.0] ***
 
@@ -400,7 +400,7 @@ partiton_level_parallism_util =       3.1961
 partiton_level_parallism_util_total  =       3.1961
 L2_BW  =       0.4088 GB/Sec
 L2_BW_total  =       0.4088 GB/Sec
-gpu_total_sim_rate=24707
+gpu_total_sim_rate=49414
 
 ========= Core cache stats =========
 L1I_cache:
@@ -3248,10 +3248,10 @@ Reply_Network_out_buffer_avg_util =       0.0002
 ----------------------------END-of-Interconnect-DETAILS-------------------------
 
 
-gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 2 sec (2 sec)
-gpgpu_simulation_rate = 24707 (inst/sec)
-gpgpu_simulation_rate = 7221 (cycle/sec)
-gpgpu_silicon_slowdown = 156764x
+gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 1 sec (1 sec)
+gpgpu_simulation_rate = 49414 (inst/sec)
+gpgpu_simulation_rate = 14443 (cycle/sec)
+gpgpu_silicon_slowdown = 78377x
 Processing kernel /root/Repos/shared/accel-sim-framework/hw_run/traces/device-0/12.8/bfs-rodinia-2.0-ft/__data_graph4096_txt___data_graph4096_result_txt/traces/kernel-2-ctx_0x558bce18b4d0.traceg.xz
 -kernel name = _Z7Kernel2PbS_S_S_i
 -kernel id = 2
@@ -6217,7 +6217,7 @@ partiton_level_parallism_util =       1.4938
 partiton_level_parallism_util_total  =       2.1067
 L2_BW  =       0.9717 GB/Sec
 L2_BW_total  =       0.7422 GB/Sec
-gpu_total_sim_rate=37397
+gpu_total_sim_rate=49862
 
 ========= Core cache stats =========
 L1I_cache:
@@ -9065,10 +9065,10 @@ Reply_Network_out_buffer_avg_util =       0.0004
 ----------------------------END-of-Interconnect-DETAILS-------------------------
 
 
-gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 4 sec (4 sec)
-gpgpu_simulation_rate = 37397 (inst/sec)
-gpgpu_simulation_rate = 8431 (cycle/sec)
-gpgpu_silicon_slowdown = 134266x
+gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 3 sec (3 sec)
+gpgpu_simulation_rate = 49862 (inst/sec)
+gpgpu_simulation_rate = 11241 (cycle/sec)
+gpgpu_silicon_slowdown = 100702x
 Processing kernel /root/Repos/shared/accel-sim-framework/hw_run/traces/device-0/12.8/bfs-rodinia-2.0-ft/__data_graph4096_txt___data_graph4096_result_txt/traces/kernel-4-ctx_0x558bce18b4d0.traceg.xz
 -kernel name = _Z7Kernel2PbS_S_S_i
 -kernel id = 4
@@ -14942,7 +14942,7 @@ partiton_level_parallism_util =       3.7108
 partiton_level_parallism_util_total  =       1.8798
 L2_BW  =       3.9161 GB/Sec
 L2_BW_total  =       1.9186 GB/Sec
-gpu_total_sim_rate=44554
+gpu_total_sim_rate=51980
 
 ========= Core cache stats =========
 L1I_cache:
@@ -17790,10 +17790,10 @@ Reply_Network_out_buffer_avg_util =       0.0012
 ----------------------------END-of-Interconnect-DETAILS-------------------------
 
 
-gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 7 sec (7 sec)
-gpgpu_simulation_rate = 44554 (inst/sec)
-gpgpu_simulation_rate = 8310 (cycle/sec)
-gpgpu_silicon_slowdown = 136221x
+gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 6 sec (6 sec)
+gpgpu_simulation_rate = 51980 (inst/sec)
+gpgpu_simulation_rate = 9695 (cycle/sec)
+gpgpu_silicon_slowdown = 116761x
 launching memcpy command : MemcpyHtoD,0x00007f5dcae27000,1
 Processing kernel /root/Repos/shared/accel-sim-framework/hw_run/traces/device-0/12.8/bfs-rodinia-2.0-ft/__data_graph4096_txt___data_graph4096_result_txt/traces/kernel-7-ctx_0x558bce18b4d0.traceg.xz
 -kernel name = _Z6KernelP4NodePiPbS2_S2_S1_i
@@ -20760,7 +20760,7 @@ partiton_level_parallism_util =       3.7427
 partiton_level_parallism_util_total  =       2.0272
 L2_BW  =       4.0651 GB/Sec
 L2_BW_total  =       4.5311 GB/Sec
-gpu_total_sim_rate=48296
+gpu_total_sim_rate=53663
 
 ========= Core cache stats =========
 L1I_cache:
@@ -23609,10 +23609,10 @@ Reply_Network_out_buffer_avg_util =       0.0027
 ----------------------------END-of-Interconnect-DETAILS-------------------------
 
 
-gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 10 sec (10 sec)
-gpgpu_simulation_rate = 48296 (inst/sec)
-gpgpu_simulation_rate = 7693 (cycle/sec)
-gpgpu_silicon_slowdown = 147146x
+gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 9 sec (9 sec)
+gpgpu_simulation_rate = 53663 (inst/sec)
+gpgpu_simulation_rate = 8548 (cycle/sec)
+gpgpu_silicon_slowdown = 132428x
 launching memcpy command : MemcpyHtoD,0x00007f5dcae27000,1
 Processing kernel /root/Repos/shared/accel-sim-framework/hw_run/traces/device-0/12.8/bfs-rodinia-2.0-ft/__data_graph4096_txt___data_graph4096_result_txt/traces/kernel-9-ctx_0x558bce18b4d0.traceg.xz
 -kernel name = _Z6KernelP4NodePiPbS2_S2_S1_i
@@ -23670,7 +23670,7 @@ partiton_level_parallism_util =       2.7497
 partiton_level_parallism_util_total  =       2.3983
 L2_BW  =      37.5335 GB/Sec
 L2_BW_total  =       9.3974 GB/Sec
-gpu_total_sim_rate=56565
+gpu_total_sim_rate=61279
 
 ========= Core cache stats =========
 L1I_cache:
@@ -26520,10 +26520,10 @@ Reply_Network_out_buffer_avg_util =       0.0056
 ----------------------------END-of-Interconnect-DETAILS-------------------------
 
 
-gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 13 sec (13 sec)
-gpgpu_simulation_rate = 56565 (inst/sec)
-gpgpu_simulation_rate = 6941 (cycle/sec)
-gpgpu_silicon_slowdown = 163088x
+gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 12 sec (12 sec)
+gpgpu_simulation_rate = 61279 (inst/sec)
+gpgpu_simulation_rate = 7519 (cycle/sec)
+gpgpu_silicon_slowdown = 150551x
 Processing kernel /root/Repos/shared/accel-sim-framework/hw_run/traces/device-0/12.8/bfs-rodinia-2.0-ft/__data_graph4096_txt___data_graph4096_result_txt/traces/kernel-10-ctx_0x558bce18b4d0.traceg.xz
 -kernel name = _Z7Kernel2PbS_S_S_i
 -kernel id = 10
@@ -26580,7 +26580,7 @@ partiton_level_parallism_util =       3.9264
 partiton_level_parallism_util_total  =       2.4234
 L2_BW  =       4.0708 GB/Sec
 L2_BW_total  =       9.0812 GB/Sec
-gpu_total_sim_rate=57593
+gpu_total_sim_rate=62023
 
 ========= Core cache stats =========
 L1I_cache:
@@ -29430,10 +29430,10 @@ Reply_Network_out_buffer_avg_util =       0.0054
 ----------------------------END-of-Interconnect-DETAILS-------------------------
 
 
-gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 14 sec (14 sec)
-gpgpu_simulation_rate = 57593 (inst/sec)
-gpgpu_simulation_rate = 6852 (cycle/sec)
-gpgpu_silicon_slowdown = 165207x
+gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 13 sec (13 sec)
+gpgpu_simulation_rate = 62023 (inst/sec)
+gpgpu_simulation_rate = 7379 (cycle/sec)
+gpgpu_silicon_slowdown = 153408x
 launching memcpy command : MemcpyHtoD,0x00007f5dcae27000,1
 Processing kernel /root/Repos/shared/accel-sim-framework/hw_run/traces/device-0/12.8/bfs-rodinia-2.0-ft/__data_graph4096_txt___data_graph4096_result_txt/traces/kernel-11-ctx_0x558bce18b4d0.traceg.xz
 -kernel name = _Z6KernelP4NodePiPbS2_S2_S1_i
@@ -32401,7 +32401,7 @@ partiton_level_parallism_util =       3.7124
 partiton_level_parallism_util_total  =       2.4249
 L2_BW  =       3.6199 GB/Sec
 L2_BW_total  =       9.9240 GB/Sec
-gpu_total_sim_rate=64564
+gpu_total_sim_rate=68599
 
 ========= Core cache stats =========
 L1I_cache:
@@ -35251,10 +35251,10 @@ Reply_Network_out_buffer_avg_util =       0.0060
 ----------------------------END-of-Interconnect-DETAILS-------------------------
 
 
-gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 17 sec (17 sec)
-gpgpu_simulation_rate = 64564 (inst/sec)
-gpgpu_simulation_rate = 6661 (cycle/sec)
-gpgpu_silicon_slowdown = 169944x
+gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 16 sec (16 sec)
+gpgpu_simulation_rate = 68599 (inst/sec)
+gpgpu_simulation_rate = 7078 (cycle/sec)
+gpgpu_silicon_slowdown = 159932x
 launching memcpy command : MemcpyHtoD,0x00007f5dcae27000,1
 Processing kernel /root/Repos/shared/accel-sim-framework/hw_run/traces/device-0/12.8/bfs-rodinia-2.0-ft/__data_graph4096_txt___data_graph4096_result_txt/traces/kernel-13-ctx_0x558bce18b4d0.traceg.xz
 -kernel name = _Z6KernelP4NodePiPbS2_S2_S1_i
@@ -35312,7 +35312,7 @@ partiton_level_parallism_util =       2.4770
 partiton_level_parallism_util_total  =       2.4271
 L2_BW  =       5.6521 GB/Sec
 L2_BW_total  =       9.6218 GB/Sec
-gpu_total_sim_rate=64542
+gpu_total_sim_rate=68338
 
 ========= Core cache stats =========
 L1I_cache:
@@ -38162,10 +38162,10 @@ Reply_Network_out_buffer_avg_util =       0.0058
 ----------------------------END-of-Interconnect-DETAILS-------------------------
 
 
-gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 18 sec (18 sec)
-gpgpu_simulation_rate = 64542 (inst/sec)
-gpgpu_simulation_rate = 6770 (cycle/sec)
-gpgpu_silicon_slowdown = 167208x
+gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 17 sec (17 sec)
+gpgpu_simulation_rate = 68338 (inst/sec)
+gpgpu_simulation_rate = 7169 (cycle/sec)
+gpgpu_silicon_slowdown = 157902x
 Processing kernel /root/Repos/shared/accel-sim-framework/hw_run/traces/device-0/12.8/bfs-rodinia-2.0-ft/__data_graph4096_txt___data_graph4096_result_txt/traces/kernel-14-ctx_0x558bce18b4d0.traceg.xz
 -kernel name = _Z7Kernel2PbS_S_S_i
 -kernel id = 14
@@ -38222,7 +38222,7 @@ partiton_level_parallism_util =       4.8571
 partiton_level_parallism_util_total  =       2.4321
 L2_BW  =       0.8832 GB/Sec
 L2_BW_total  =       9.2394 GB/Sec
-gpu_total_sim_rate=63733
+gpu_total_sim_rate=67274
 
 ========= Core cache stats =========
 L1I_cache:
@@ -41072,10 +41072,10 @@ Reply_Network_out_buffer_avg_util =       0.0055
 ----------------------------END-of-Interconnect-DETAILS-------------------------
 
 
-gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 19 sec (19 sec)
-gpgpu_simulation_rate = 63733 (inst/sec)
-gpgpu_simulation_rate = 6707 (cycle/sec)
-gpgpu_silicon_slowdown = 168778x
+gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 18 sec (18 sec)
+gpgpu_simulation_rate = 67274 (inst/sec)
+gpgpu_simulation_rate = 7080 (cycle/sec)
+gpgpu_silicon_slowdown = 159887x
 launching memcpy command : MemcpyHtoD,0x00007f5dcae27000,1
 Processing kernel /root/Repos/shared/accel-sim-framework/hw_run/traces/device-0/12.8/bfs-rodinia-2.0-ft/__data_graph4096_txt___data_graph4096_result_txt/traces/kernel-15-ctx_0x558bce18b4d0.traceg.xz
 -kernel name = _Z6KernelP4NodePiPbS2_S2_S1_i
@@ -44043,7 +44043,7 @@ partiton_level_parallism_util =       6.7368
 partiton_level_parallism_util_total  =       2.4432
 L2_BW  =       0.8707 GB/Sec
 L2_BW_total  =       8.5243 GB/Sec
-gpu_total_sim_rate=65465
+gpu_total_sim_rate=68910
 
 ========= Core cache stats =========
 L1I_cache:
@@ -46893,9 +46893,9 @@ Reply_Network_out_buffer_avg_util =       0.0051
 ----------------------------END-of-Interconnect-DETAILS-------------------------
 
 
-gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 20 sec (20 sec)
-gpgpu_simulation_rate = 65465 (inst/sec)
-gpgpu_simulation_rate = 6963 (cycle/sec)
-gpgpu_silicon_slowdown = 162573x
+gpgpu_simulation_time = 0 days, 0 hrs, 0 min, 19 sec (19 sec)
+gpgpu_simulation_rate = 68910 (inst/sec)
+gpgpu_simulation_rate = 7329 (cycle/sec)
+gpgpu_silicon_slowdown = 154454x
 GPGPU-Sim: *** simulation thread exiting ***
 GPGPU-Sim: *** exit detected ***
