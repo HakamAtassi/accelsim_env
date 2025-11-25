@@ -1,0 +1,15 @@
+[
+    null,
+    {
+        "kernel_name": "_Z11srad_cuda_1PfS_S_S_S_S_iif"
+    },
+    {
+        "kernel_name": "_Z11srad_cuda_2PfS_S_S_S_S_iiff"
+    },
+    {
+        "kernel_name": "_Z11srad_cuda_1PfS_S_S_S_S_iif"
+    },
+    {
+        "kernel_name": "_Z11srad_cuda_2PfS_S_S_S_S_iiff"
+    }
+]
