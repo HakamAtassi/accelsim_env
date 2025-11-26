@@ -27,7 +27,7 @@ Now, set up the current repo. Run:
 
 Now you need to decide if you intend to develop using a fork of accelsim and gpgpu-sim. This is useful if you want a safe place to keep your code. If you do, read `host_init.py` and update the links as neccesary. Otherwise, proceed to the next step(s).
 
-To build pull repos, run:
+To pull repos, run:
 
 `python3 host_init.py --use-fork <0, 1>` based on if you plan on using forks or not.
 
