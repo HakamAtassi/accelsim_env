@@ -1,17 +1,49 @@
 
 # Setup
 
-Accel-sim has a fairly annoying set up process. In order to get up and running, you will likely encouter a few issues that may result from an unset env variable causing the clone of the wrong repo, or an env variable being set that should no longer be set, and variety of other issues that are really annoying to debug. This repo helps streamline this process. 
+This repo helps bootstrap an accelsim env. 
 
-# Instructions
-To get up and running:
-- Build the official accel-sim docker container with cuda 12.8 and ubuntu 24.04. 
-- Open a terminal and run `bash host_stepup.sh`. This will pull the neccesary repos locally, which will later be mounted to your docker container for their execution. They pull compatibile versions of accel-sim and gpgpu-sim. If you have forks of these, it is your responsibiltiy to make the neccesary changes to this process. If not, proceed to the next step. (We clone these ourselves because accelsim tends to pull in versions that may be in conflict, which causes build issuse, we clone these ourselves to stop accelsim from doing that).
-- Run make run (only do this when running for the first time). This wills spin up your docker container. 
-- Next, you want to start executing the commands in `shared/init.sh`. This will basically install nvbit, gpgpusim, trace a few things, and also validate the setup.
-- If you are able to run both ptx and sass simulations, congrats, your environment is set up. 
-- Make sure you read the init.sh as it contains instructions on how to run the commands. 
+## Dependancies
+
+To get started, ensure you have all the required dependancies to use accelsim in a Docker container. Run:
+
+```
+sudo apt update &&
+sudo apt-get install -y wget build-essential xutils-dev bison zlib1g-dev flex \
+      libglu1-mesa-dev git g++ libssl-dev libxml2-dev libboost-all-dev git g++ \
+      libxml2-dev vim python3-pip
+
+pip3 install pyyaml plotly psutil
+```
+
+## Env Setup
+
+First, you need to ensure you have docker installed. DO NOT INSTALL DOCKER AS A SNAP. Otherwise, you will encounter all sorts of really hard to debug issues. Follow [the official guide](https://docs.docker.com/engine/install/ubuntu). 
 
 
+Now, set up the current repo. Run:
 
-Note: Towards the end of the set up process, when you run the SASS trace, you need to collect the trace using a system with the same GPU archtiecture as what you are simulating. I have an ampere GPU, so I set the variable to a RTX3070. 
+`https://github.com/HakamAtassi/accelsim_env.git && cd accelsim_env`
+
+Now you need to decide if you intend to develop using a fork of accelsim and gpgpu-sim. This is useful if you want a safe place to keep your code. If you do, read `host_init.py` and update the links as neccesary. Otherwise, proceed to the next step(s).
+
+To build pull repos, run:
+
+`python3 host_init.py --use-fork <0, 1>` based on if you plan on using forks or not.
+
+Now you have everything you need in the `shared/` dir. This will be your dev environment. You can modify the code in `shared` as it will be mounted in the docker container. To build the docker container, run:
+
+`make run`
+
+This will build a docker container from the official accel-sim repository. It may take a while to pull everything in. Note: you only ever run "make run" once. This will init a container with the same name as the current dir 'accelsim_env', but as a docker container. After this initial `make run`, you should use `make start` to re-launch your container. 
+
+
+Finally, in `shared`, you have `init.sh`. This bash script contains a series of bash commands that you should copy paste into your docker terminal. Following this should result in a built version of accel-sim as well as a few traced examples that you should be able to run. I may have missed a few steps (init.sh may skip a few things), but the important steps are:
+
+- Build accelsim
+- Create traces of vector-add, rodinia, etc...
+- Run them on accel-sim
+
+I remember having issues with their job manager, so I would suggest running accel-sim yourself. 
+
+
