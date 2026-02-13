@@ -23,6 +23,8 @@ make -C ./util/tracer_nvbit/
 cd $ACCELSIM_FRAMEWORK/util/tracer_nvbit
 make -C nvbit_release/test-apps
 LD_PRELOAD=$ACCELSIM_FRAMEWORK/util/tracer_nvbit/tracer_tool/tracer_tool.so ./nvbit_release/test-apps/vectoradd/vectoradd
+./tracer_tool/traces-processing/post-traces-processing ./traces/kernelslist
+
 # There is a post processing step here that is missing... Feel free to issue a commit to add it once you find it :)
 
 
