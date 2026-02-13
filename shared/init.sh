@@ -69,4 +69,5 @@ source ./gpu-simulator/setup_environment.sh # source (again)
 ## IMPORTANT ##
 # this is how you call accelsim natively. 
 # Run a directed test 
-$ACCELSIM_FRAMEWORK/gpu-simulator/bin/release/accel-sim.out -trace ./hw_run/traces/device-0/12.8/backprop-rodinia-2.0-ft/4096___data_result_4096_txt/traces/kernelslist.g -config ./gpu-simulator/gpgpu-sim/configs/tested-cfgs/SM86_RTX3070/gpgpusim.config -config ./gpu-simulator/configs/tested-cfgs/SM86_RTX3070/trace.config 
+#$ACCELSIM_FRAMEWORK/gpu-simulator/bin/release/accel-sim.out -trace ./hw_run/traces/device-0/12.8/backprop-rodinia-2.0-ft/4096___data_result_4096_txt/traces/kernelslist.g -config ./gpu-simulator/gpgpu-sim/configs/tested-cfgs/SM86_RTX3070/gpgpusim.config -config ./gpu-simulator/configs/tested-cfgs/SM86_RTX3070/trace.config 
+$ACCELSIM_FRAMEWORK/gpu-simulator/bin/release/accel-sim.out -trace /workspace/accel-sim-framework/util/tracer_nvbit/traces/kernelslist.g -config ./gpu-simulator/gpgpu-sim/configs/tested-cfgs/SM80_A100/gpgpusim.config -config ./gpu-simulator/configs/tested-cfgs/SM80_A100/trace.config 
