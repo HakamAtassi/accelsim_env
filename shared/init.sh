@@ -1,5 +1,5 @@
 
-ACCELSIM_FRAMEWORK=/root/Repos/shared/accel-sim-framework
+ACCELSIM_FRAMEWORK=/workspace/accel-sim-framework
 ACCELSIM_DATA=/accel-sim
 export CUDA_INSTALL_PATH=/usr/local/cuda
 export PATH=$CUDA_INSTALL_PATH/bin:$PATH
@@ -35,7 +35,6 @@ make -C ./gpu-app-collection/src data
 
 ## YOU ARE NOW SET UP #
 ## CLOSE AND RESTART CONTAINER TO PROCEED!! ##
-
 
 ACCELSIM_FRAMEWORK=/root/Repos/shared/accel-sim-framework
 ACCELSIM_DATA=/accel-sim
