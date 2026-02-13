@@ -29,7 +29,7 @@ Now you need to decide if you intend to develop using a fork of accelsim and gpg
 
 To pull repos, run:
 
-`python3 host_init.py --use-fork <0, 1>` based on if you plan on using forks or not.
+`python3 host_init.py --use-fork` based on if you plan on using forks or not.
 
 Now you have everything you need in the `shared/` dir. This will be your dev environment. You can modify the code in `shared` as it will be mounted in the docker container. To build the docker container, run:
 
