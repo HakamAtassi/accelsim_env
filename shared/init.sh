@@ -1,4 +1,6 @@
 
+# these are meant to run in the docker container 
+
 ACCELSIM_FRAMEWORK=/workspace/accel-sim-framework
 ACCELSIM_DATA=/accel-sim
 export CUDA_INSTALL_PATH=/usr/local/cuda
